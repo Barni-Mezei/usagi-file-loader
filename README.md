@@ -1,7 +1,7 @@
 ### This repo contains useful file loaders and writers for the [Usagi](https://github.com/brettchalupa/usagi) game engine
 
 ### Available file loaders:
-- [**PPM**](doc/ppm_loader.md) (image): `RW` 
+- [**PPM**](/doc/ppm_loader.md) (image): `RW` 
 - **PNG** (image): Planned `RW`
 - **NBT** (data): Planned `RW`
 - **WAV** (audio): Planned `R`

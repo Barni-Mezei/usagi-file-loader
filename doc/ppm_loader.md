@@ -1,4 +1,4 @@
-This is the PPM image manager class. The manager is in the [ppm_loader.lua](lib/ppm_loader.lua) file and it has a single dependency: [grid.lua](lib/grid.lua). For easy rendering, it is recommended to use the [graphics.lua](lib/graphics.lua) -> `render_grid()` function.
+This is the PPM image manager class. The manager is in the [ppm_loader.lua](/lib/ppm_loader.lua) file and it has a single dependency: [grid.lua](/lib/grid.lua). For easy rendering, it is recommended to use the [graphics.lua](/lib/graphics.lua) -> `render_grid()` function.
 
 # Using the loader
 

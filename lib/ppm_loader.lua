@@ -131,7 +131,7 @@ local function _load_binary_ppm(file_handler, width, height)
     return out
 end
 
----Loads a PPM file from the disc and return a grid, containing renderable
+---Loads a PPM file from the disc and returns a grid, containing renderable
 ---palette indexes
 ---@param path string The name of the file to load
 ---@return Grid.Grid|nil, string|nil image A 2D matrix of palette indexes
