@@ -1,6 +1,7 @@
 --- This file allows you to load and save PPM files, both ascii and binary versions of it
---- Made by following this: https://en.wikipedia.org/wiki/Netpbm
---- Creator: barni-07 (Github: Barni-Mezei)
+--- Creator: barni-07 (https://github.com/Barni-Mezei)
+--- Based on the following resources:
+--- - https://en.wikipedia.org/wiki/Netpbm
 
 --- Load dependencies
 local grid = require("lib.grid")

@@ -13,7 +13,8 @@ function dump(value, advanced, max_depth, depth)
 	local t = tostring(value)
 
 	if type(value) == "nil" then io.write("\27[90mnil\27[m") end
-	if type(value) == "number" then io.write(f("\27[36m%.4f\27[m", t)) end
+	if type(value) == "number" and math.type(value) == "integer" then io.write(f("\27[36m%d\27[m", value)) end
+	if type(value) == "number" and math.type(value) == "float"   then io.write(f("\27[36m%f\27[m", value)) end
 	if type(value) == "string" then io.write(f("\27[33m\"%s\"\27[m", t)) end
 	if type(value) == "boolean" then io.write(f("%s\27[m", value and "\27[32mtrue" or "\27[31mfalse")) end
 	if type(value) == "function" then io.write(f("\27[90m%s()\27[m", t)) end
