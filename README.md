@@ -5,6 +5,7 @@
 - **PNG** (image): Planned `RW`
 - **NBT** (data): Planned `RW`
 - **WAV** (audio): Planned `R`
+- **MIDI** (audio): Planned `R`
 
 ### Loader structure
 
@@ -12,4 +13,5 @@ Each loader has a `loader.save([filename], args)` and a `loader.load([filename],
 
 - Loaded images are represented as a **2D table matrix**
 - Loaded sounds are represented as a **table of pitches**, that can be played back at 60sps (sample per second), using any short sound sfx
+- Loaded melodies are represented as a **table of notes**, that can be played back using some custom sfx sounds, or the above mentioned method of playing audio.
 - Loaded NBT data is stored as a **lua table**

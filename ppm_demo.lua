@@ -4,12 +4,11 @@ require("lib.graphics")
 require("lib.misc")
 
 local ppm_loader = require("lib.ppm_loader")
-local grid = require("lib.grid")
 
 function _config()
 	return {
 		name = "Image loader",
-		game_id = "com.barni-07.image-loaders",
+		game_id = "com.file-loader.image",
 
 		-- game_width = 640,
 		-- game_height = 360,
@@ -23,7 +22,7 @@ function _init()
 	local err
 
 	-- Load an image
-	image, err = ppm_loader.load("test/sines.ascii.ppm")
+	image, err = ppm_loader.load("test/ppm/sines.ascii.ppm")
 	if err then print(err) usagi.quit() end
 
 	-- Modify the image
